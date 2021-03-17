@@ -63,8 +63,8 @@ fun main(args: Array<String>) {
     >=	So sánh lớn hơn hoặc bằng	a.compareTo(b) >= 0	113>= 5 => kết quả True
 */
     println("4. Toán tử So sánh:")
-    a=8;b=5
-    println(a==b)
+    a = 8;b = 5
+    println(a == b)
     println(a.equals(b))
     println(!a.equals(b))
     println(a.compareTo(b))
@@ -72,15 +72,44 @@ fun main(args: Array<String>) {
     println(3.compareTo(5))
     println(5.compareTo(3))
 
-    a=5;b=8;c=2
+    a = 5;b = 8;c = 2
     a-- //4
     b++ //9  5 + 10 - 1 + 7
-    var z= a++ + ++b - --c + 7
+    var z = a++ + ++b - --c + 7
 
 
-    println("a++="+a++)
-    println("++a="+ ++a)
-    println("b="+ ++b)
-    println("c="+c)
-    println("z="+z)
+    println("a++=" + a++)
+    println("++a=" + ++a)
+    println("b=" + ++b)
+    println("c=" + c)
+    println("z=" + z)
+
+//    5.Toán tử Logic:
+//    && Toán tử Và: Nếu cả hai điều kiện là True thì kết quả sẽ là True
+//    a.and(b) x=false y=true x&&y==>false
+
+//    || Toán tử Hoặc: Chỉ cần một điều kiện True thì nó True, tất cả điều kiện False thì nó False
+//    a.or(b) x=false y=truex||y==>true
+    var k: Boolean = true
+    var m: Boolean = false
+    var n: Boolean = false
+    println("k=" + k)
+    println("m=" + m)
+    println("n=" + n)
+    println("k&&m=" + (k && m))
+    println("k.and(m)=" + k.and(m))
+    println("k || m =" + (k || m))
+    println("k.or(m)=" + k.or(m))
+    println("k || n =" + (k || n))
+    println("k.or(n)=" + k.or(n))
+    println("k && n =" + (k && n))
+    println("k.and(n)=" + k.and(n))
+    println("m || n =" + (m || n))
+    println("m.or(n)=" + m.or(n))
+    println("m && n =" + (m && n))
+    println("m.and(n)=" + m.and(n))
+    println("k && m && n =" + (k && m && n))
+    println("k.and(m).and(n)=" + k.and(m).and(n))
+    println("k|| m||n =" + (k || m || n))
+    println("k.or(m).or(n)=" + k.or(m).or(n))
 }

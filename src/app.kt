@@ -110,16 +110,16 @@ fun main(args: Array<String>) {
 //    println("Hello, ${args[0]}!")
 
 //Bài nhập từ bàn phím
-/*        var a:Double=0.0
+        var a:Double=0.0
         var b:Double=0.0
         println("Nhập a:")
-        var s= readLine()
-        if(s!=null)
-            a=s.toDouble()
+        var  sa= readLine()
+        if(sa!=null)
+            a=sa.toDouble()
         println("Nhập b:")
-        s= readLine()
-        if(s!=null)
-            b=s.toDouble()
+        sa= readLine()
+        if(sa!=null)
+            b=sa.toDouble()
         if(a==0.0 && b==0.0)
         {
             println("Phương trình vô số nghiệm")
@@ -132,7 +132,7 @@ fun main(args: Array<String>) {
         {
             var x=-b/a
             println("No x="+x)
-        }*/
+        }
     var t2 = 13.0 + 1
     println(t2)
 
